@@ -1,0 +1,15 @@
+[{
+        "id": 1,
+        "name": "kaos oversized",
+        "price": 199999,
+        "image": "/images/tshirt.jpg",
+        "category": "kaos"
+    },
+    {
+        "id": 2,
+        "name": "celana",
+        "price": 199999,
+        "image": "/images/celana.jpg",
+        "category": "celana"
+    }
+]
