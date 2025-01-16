@@ -2,7 +2,7 @@ import React from "react";
 
 const Carousel = () => {
     return (
-<div id="animation-carousel" class="relative w-full z-0 mt-14" data-carousel="slide">
+<div id="animation-carousel" class="relative w-full z-0 mt-20" data-carousel="slide">
     <div class="relative w-full h-[450px] rounded-lg overflow-hidden">
         <div class="hidden duration-700 ease-linear" data-carousel-item>
             <img src="https://erigostore.co.id/cdn/shop/files/Potongan_30rb_Pembeli_Pertama.jpg?v=1734330646&width=1500" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fill scale-[1.15]" alt="..."/>

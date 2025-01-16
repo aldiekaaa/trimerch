@@ -5,6 +5,7 @@ import Gallery from './components/gallery';
 import Catalog from './components/catalog';
 import 'flowbite';
 import 'flowbite/dist/flowbite.css';
+import Unggulan from './components/unggulan';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Carousel class="w-screen"/>
       <Gallery/>
       <Catalog/>
+      <Unggulan/>
      </div>
   )
 }

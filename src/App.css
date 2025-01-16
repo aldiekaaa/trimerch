@@ -14,3 +14,17 @@
         margin-right: 20px;
     }
 }
+
+#scrollable {
+    overflow-x: scroll;
+    /* Pastikan kontainer bisa di-scroll */
+    scrollbar-width: none;
+    /* Firefox: sembunyikan scrollbar */
+    -ms-overflow-style: none;
+    /* IE/Edge: sembunyikan scrollbar */
+}
+
+#scrollable::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera: sembunyikan scrollbar */
+}
