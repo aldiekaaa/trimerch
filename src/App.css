@@ -28,3 +28,15 @@
     display: none;
     /* Chrome, Safari, Opera: sembunyikan scrollbar */
 }
+
+.box {
+    z-index: 20;
+    background-color: transparent;
+    box-shadow: 19px 0px #fff;
+}
+
+.box-2 {
+    z-index: 20;
+    background-color: transparent;
+    box-shadow: 18px 0px 0 #fff;
+}
