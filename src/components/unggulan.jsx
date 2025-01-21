@@ -19,8 +19,8 @@ const Unggulan = () => {
                         <img className="w-full h-96 object-cover rounded-2xl polygon-card brightness-50" src="https://cdn.pixabay.com/photo/2022/10/10/08/32/woman-7511233_960_720.jpg" alt="" />
                         <p className="absolute bottom-5 text-start left-5 text-xs w-10/12 text-white">Our streetwear is crafted to express your authentic spirit and individuality. Discover the perfect blend of comfort, modern design, and urban culture in every piece</p>
                         <div className="leaf-btn">
-                            <div className="absolute top-0 w-1/4 h-[17px] left-[px] rounded-tr-full rounded-tl-lg box"></div>
-                            <div className="absolute top-9 right-0 h-4 w-1/4 rounded-tr-3xl box-2"></div>
+                            <div className="absolute top-0 w-1/4 h-[17px] left-[px] rounded-tr-full rounded-tl-lg box z-10"></div>
+                            <div className="absolute top-9 right-0 h-4 w-1/4 rounded-tr-3xl box-2 z-10"></div>
                             <button className="absolute top-0 bg-white right-0 w-3/4 h-9 polygon-btn polygon-btn rounded-tr-lg rounded-bl-3xl">Discover the Latest Streetwear</button>
                         </div>
                     </div>
