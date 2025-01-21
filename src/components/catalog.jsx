@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { initializeScrollable } from "../anim/scrollable";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const Catalog = () => {
 
@@ -16,7 +19,7 @@ const Catalog = () => {
                     <h1 className="text-5xl uppercase text-gray-800 font-black">Catalog</h1>
                     <p className="w-3/5">Explore our curated collection of fashion essentials. From timeless pieces to the latest trends, find the perfect items to enhance your personal style.</p>
                 </div>
-                <button className="text-nowrap py-2 px-5 border border-gray-800 rounded-md">View All</button>
+                <button className="text-nowrap py-2 px-5 border border-gray-800 rounded-md">View All <FontAwesomeIcon className="-rotate-45 ml-3" icon={faArrowRight}/></button>
             </div>
             <div className="flex flex-nowrap gap-10 overflow-x-auto" id="scrollable">
                 {/* PRODUCT CARD */}
@@ -26,8 +29,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>T-Shirt JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 129.999</p>
                             </div>
                         </div>
                     </div>
@@ -39,8 +42,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>Jacket JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 299.999</p>
                             </div>
                         </div>
                     </div>
@@ -52,8 +55,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>T-Shirt JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 99.999</p>
                             </div>
                         </div>
                     </div>
@@ -65,8 +68,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>T-Shirt JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 99.999</p>
                             </div>
                         </div>
                     </div>
@@ -78,8 +81,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>T-Shirt JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 99.999</p>
                             </div>
                         </div>
                     </div>
@@ -91,8 +94,8 @@ const Catalog = () => {
                         <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-white opacity-0 py-2 px-5 group-hover:opacity-100 duration-300 rounded-lg text-white">Buy Now</button>
                         <div className="absolute left-5 bottom-0 translate-y-0 overflow-hidden text-start items-center opacity-0 group-hover:-translate-y-5 group-hover:opacity-100 duration-300">
                             <div className="text-nowrap text-white">
-                                <h3>Lorem, ipsum dolor.</h3>
-                                <p>Rp. 99.999</p>
+                                <h3>T-Shirt JKT48 X Erigo</h3>
+                                <p className="text-2xl font-semibold">Rp. 99.999</p>
                             </div>
                         </div>
                     </div>

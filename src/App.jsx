@@ -10,7 +10,7 @@ import 'flowbite/dist/flowbite.css';
 
 function App() {
   return (
-     <div class="container text-center items-center m-auto w-full">
+     <div class="container text-center items-center m-auto w-full poppins-regular">
       <Navbar/>
       <Carousel class="w-screen"/>
       <Gallery/>

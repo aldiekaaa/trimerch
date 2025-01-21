@@ -9,7 +9,7 @@ const Navbar = () => {
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <ul class="flex justify-start gap-5">
-                    <li><a href="">Cart</a></li>
+                    <li><a href="">Cart(0)</a></li>
                     <li><a href="">Account</a></li>
                 </ul>
                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
