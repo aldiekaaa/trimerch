@@ -19,7 +19,7 @@ const Navbar = () => {
                     <span class="self-center text-4xl font-black whitespace-nowrap text-gray-800 italic">TRIMERCH</span>
                 </a>
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                    <ul class="flex justify-start gap-5">
+                    <ul class="lg:flex justify-start gap-5 hidden md:block">
                         <li><a href="">Cart(0)</a></li>
                         <li><button className="account-btn" onClick={togglePopup}>Account</button></li>
                     </ul>
@@ -84,13 +84,20 @@ const Navbar = () => {
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
                         <li>
-                            <a href="#gallery" class="block py-2 px-3 text-gray-800 bg-indigo-700 rounded md:bg-transparent md:text-indigo-700 md:p-0">Collection</a>
+                            <a href="#" class="block py-2 px-3 text-gray-800 rounded md:bg-transparent md:text-indigo-700 md:p-0">Collection</a>
                         </li>
                         <li>
                             <a href="#" class="block py-2 px-3 text-gray-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 duration-300">Product</a>
                         </li>
                         <li>
                             <a href="#" class="block py-2 px-3 text-gray-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="lg:hidden block py-2 px-3 text-gray-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 duration-300">Cart (0)</a>
+                            
+                        </li>
+                        <li>
+                            <button href="#" class="lg:hidden block py-2 px-3 text-gray-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 duration-300">Account</button>
                         </li>
                     </ul>
                 </div>

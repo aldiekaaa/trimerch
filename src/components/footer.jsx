@@ -9,7 +9,7 @@ const Footer = () => {
                     <a href="#" class="flex items-center">
                         <span class="self-center text-3xl whitespace-nowrap font-black text-gray-800 italic">TRIMERCH</span>
                     </a>
-                    <p className="mt-5 w-1/2 drop-shadow-xl">Margaluyu Street, No.193, Sukamukti, Pataruman District, Sukakamu City, West Java 46326</p>
+                    <p className="mt-5 md:w-1/2 drop-shadow-xl">Margaluyu Street, No.193, Sukamukti, Pataruman District, Sukakamu City, West Java 46326</p>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
@@ -49,7 +49,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <h1 className="absolute -z-10 bottom-14 left-1/2 -translate-x-1/2 text-9xl text-center font-black tracking-widest text-gray-300 text-wrap">TRIMERCH</h1>
+                <h1 className="absolute -z-10 bottom-16 md:bottom-14 left-1/2 -translate-x-1/2 text-6xl md:text-9xl text-center font-black tracking-widest text-gray-300 text-wrap">TRIMERCH</h1>
                 <div className="absolute h-8 w-full bg-white bottom-14"></div>
             </div>
             <hr class="my-6 border-gray-300 border-2 sm:mx-auto lg:my-" />

@@ -14,12 +14,12 @@ const Catalog = () => {
 
     return (
         <div className="container mx-auto" id="product">
-            <div className="flex flex-nowrap justify-between gap-28 items-center text-start mt-10 border-t-2 border-gray-300">
+            <div className="md:flex flex-nowrap justify-between gap-28 items-center text-center md:text-start mt-10 border-t-2 border-gray-300">
                 <div className="my-10">
-                    <h1 className="text-5xl uppercase text-gray-800 font-black">Catalog</h1>
-                    <p className="w-3/5">Explore our curated collection of fashion essentials. From timeless pieces to the latest trends, find the perfect items to enhance your personal style.</p>
+                    <h1 className="text-5xl uppercase text-gray-800 font-black text-start">Catalog</h1>
+                    <p className="text-xs md:text-sm md:text-start md:w-3/5">Explore our curated collection of fashion essentials. From timeless pieces to the latest trends, find the perfect items to enhance your personal style.</p>
                 </div>
-                <button className="text-nowrap py-2 px-5 border border-gray-800 rounded-md">View All <FontAwesomeIcon className="-rotate-45 ml-3" icon={faArrowRight}/></button>
+                <button className="text-nowrap py-2 px-5 border border-gray-800 rounded-md hidden md:block">View All <FontAwesomeIcon className="-rotate-45 ml-3" icon={faArrowRight}/></button>
             </div>
             <div className="flex flex-nowrap gap-10 overflow-x-auto" id="scrollable">
                 {/* PRODUCT CARD */}
