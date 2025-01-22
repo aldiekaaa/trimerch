@@ -28,7 +28,7 @@ const Gallery = () => {
     }, []);
     
     return (
-        <div class="relative">
+        <div class="relative" id="collection">
             <div class="relative w-full overflow-hidden marquee-container my-10 border-y-2 border-gray-300 bg-gray-800">
                 <div class="marquee flex gap-40 whitespace-nowrap py-4">
                     <div class="flex justify-center gap-6 text-white text-center items-center px-14 py-3 whitespace-nowrap text-xl font-bold italic uppercase"><img class="w-full h-[50px] object-cover rounded-lg" src="https://images.pexels.com/photos/1247526/pexels-photo-1247526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /><h3> Summer Collection</h3></div>

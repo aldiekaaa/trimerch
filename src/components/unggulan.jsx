@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Unggulan = () => {
     return (
-        <section className="my-16">
+        <section className="my-16" id="blog">
             <div className="container mx-auto">
-                <p className="text-center text-3xl text-gray-800 w-2/3 mx-auto">Elevate your everyday hustle with streetwear that blends comfort and edge. Wear your vibe.</p>
+                <p className="text-center text-4xl text-gray-800 w-2/3 mx-auto font-medium">Elevate your everyday hustle with streetwear that blends comfort and edge. Wear your vibe.</p>
                 <div className="grid grid-cols-3 gap-3 my-10">
                     <div className="col-span-2 h-96 relative">
                         <img className="w-full h-96 object-cover rounded-2xl brightness-50" src="https://cdn.pixabay.com/photo/2022/08/22/11/03/skateboard-7403428_1280.jpg" alt="" />

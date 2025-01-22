@@ -13,7 +13,7 @@ const Catalog = () => {
     
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto" id="product">
             <div className="flex flex-nowrap justify-between gap-28 items-center text-start mt-10 border-t-2 border-gray-300">
                 <div className="my-10">
                     <h1 className="text-5xl uppercase text-gray-800 font-black">Catalog</h1>
